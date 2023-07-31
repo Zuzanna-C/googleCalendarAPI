@@ -22,7 +22,6 @@ namespace calendarT
     {
         GetEventInfo GetEvent;
         AddEventToGoogle AddEventGoogle;
-        GetEventsGoogle GetEventGoogle;
 
         List<EventModel> zadaniaList = new List<EventModel>();
 
@@ -30,7 +29,6 @@ namespace calendarT
         {
             GetEvent = new GetEventInfo(session);
             AddEventGoogle = new AddEventToGoogle(session);
-            GetEventGoogle = new GetEventsGoogle();
         }
 
         public List<EventModel> GetEventsInfo(string _kontrahent)
@@ -63,11 +61,6 @@ namespace calendarT
             GetEventsInfo("abc");
             var test = AddEventGoogle.AddEventToCalendar(zadaniaList[0]);
             return test;
-        }
-
-        public EventModel GetEventsGoogle()
-        {
-            return GetEventGoogle.getEventGoogleCalendar();
         }
     }
 }

@@ -13,8 +13,5 @@ namespace calendarT.Interfaces
 
         [DynamicApiMethod(HttpMethods.POST, nameof(AddEventToCalendar), MediaType = "application/json")]
         EventModel AddEventToCalendar();
-
-        [DynamicApiMethod(HttpMethods.GET, nameof(GetEventsGoogle), MediaType = "application/json")]
-        EventModel GetEventsGoogle();
     }
 }

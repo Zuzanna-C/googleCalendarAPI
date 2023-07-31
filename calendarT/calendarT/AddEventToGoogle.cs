@@ -20,22 +20,8 @@ namespace calendarT
             string jsonFile = "cosmic-stacker-393910-30e34a3dff89.json";
             string calendarId = @"7eb1942465e026e68a53d42358f4531e3d0ceabf6db49846d979142e1498ad7a@group.calendar.google.com";
 
+            string[] Scopes = { CalendarService.Scope.CalendarEvents };
 
-            //if (File.Exists(jsonFile))
-            //{
-            //    try
-            //    {
-            //        using (var stream = new FileStream(jsonFile, FileMode.Open, FileAccess.Read))
-            //        {
-            //            string[] Scopes = { CalendarService.Scope.CalendarEvents };
-            //        }
-            //    }
-            //    catch (Exception ex)
-            //    {
-                    
-            //    }
-                
-            //}                      
             return eventmodel;
         }
     }
