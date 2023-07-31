@@ -3,17 +3,18 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33723.286
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "calendarT", "calendarT\calendarT\calendarT.csproj", "{C9A22CA8-3DD9-4F1D-93E0-F81C5F83D2A7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "calendarT", "calendarT\calendarT\calendarT.csproj", "{C9A22CA8-3DD9-4F1D-93E0-F81C5F83D2A7}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{91ECBD96-8E75-47FE-B77C-8D40EFE1DF60}"
 	ProjectSection(SolutionItems) = preProject
+		calendarT\calendarT\cosmic-stacker-393910-30e34a3dff89.json = calendarT\calendarT\cosmic-stacker-393910-30e34a3dff89.json
 		Directory.Build.props = Directory.Build.props
 		global.json = global.json
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "calendarT.UI", "calendarT\calendarT.UI\calendarT.UI.csproj", "{06448EBA-39F1-4C13-B4B4-F61E2261B0A7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "calendarT.UI", "calendarT\calendarT.UI\calendarT.UI.csproj", "{06448EBA-39F1-4C13-B4B4-F61E2261B0A7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "calendarT.Tests", "calendarT\calendarT.Tests\calendarT.Tests.csproj", "{829FFF50-5D24-4230-B74A-36054BAB4833}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "calendarT.Tests", "calendarT\calendarT.Tests\calendarT.Tests.csproj", "{829FFF50-5D24-4230-B74A-36054BAB4833}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
